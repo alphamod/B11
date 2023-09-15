@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script
+      src="https://kit.fontawesome.com/2096b1ae53.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="title">
+        <i class="fa-solid fa-bars icon"></i>
+        <span class="title-text">Standard</span>
+        <i class="fa-solid fa-arrow-up-right-from-square icon"></i>
+      </div>
+      <div class="display-section">
+        <input class="display" type="number" value="0" disabled />
+      </div>
+      <div class="keys">
+        <div class="top-keys">
+          <button class="grey-btns">MC</button>
+          <button class="grey-btns">MR</button>
+          <button>M+</button>
+          <button>M-</button>
+          <button>MS</button>
+        </div>
+        <div class="bottom-keys">
+          <div class="key-row">
+            <button><i class="fa-solid fa-percent"></i></button>
+            <button>CE</button>
+            <button>C</button
+            ><button><i class="fa-solid fa-delete-left"></i></button>
+          </div>
+          <div class="key-row">
+            <button><span class="super-script">1</span><span class="italic">/x</span></button>
+            <button><span class="italic">x</span><span class="super-script smaller-text">2</span></button>
+            <button><span class="super-script smaller-text neg-margin">2</span><i class="fa-solid fa-square-root-variable"></i></button
+            ><button><i class="fa-solid fa-divide"></i></button>
+          </div>
+          <div class="key-row">
+            <button class="white-bg">7</button>
+            <button class="white-bg">8</button>
+            <button class="white-bg">9</button
+            ><button><i class="fa-solid fa-xmark"></i></button>
+          </div>
+          <div class="key-row">
+            <button class="white-bg">4</button>
+            <button class="white-bg">5</button>
+            <button class="white-bg">6</button
+            ><button><i class="fa-solid fa-minus"></i></button>
+          </div>
+          <div class="key-row">
+            <button class="white-bg">1</button>
+            <button class="white-bg">2</button>
+            <button class="white-bg">3</button
+            ><button><i class="fa-solid fa-plus"></i></button>
+          </div>
+          <div class="key-row">
+            <button class="white-bg"><span class="super-script">+</span><span class="italic">/-</span></button>
+            <button class="white-bg">0</button>
+            <button class="white-bg">.</button
+            ><button class="equals-btn"><i class="fa-solid fa-equals"></i></button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

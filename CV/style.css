@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;700&family=Handjet:wght@100;300;400;500&display=swap');
+
+body{
+    font-family: 'Dancing Script', cursive;
+}
+.container{
+    color: #949494;
+}
+
+.top{
+    background-color: #fbe5e0;
+    height: 40vh;
+}
+.title h1{
+    font-size: 3em;
+    color: #120a03;
+    font-weight: 500;
+    font-family: 'Handjet', cursive;
+}
+.icon{
+    color: #ffffff;
+}
+.text-transform-uppercase{
+    text-transform: uppercase;
+
+}
+.title div{
+    font-size: 1.5em;
+    background-color: #f8f8f8;
+    color: #7b7b7b; 
+    width: 23%;
+    font-family: 'Handjet', cursive;
+}
+.summary-p{
+    width: 70%;
+    float: left;
+}
+.summary-info{
+    margin-left: 2em;
+    float: left;
+}
+.summary-info li{
+    list-style-type: none;
+}
+.bottom-left{
+    width: 60%;
+    height: 60vh;  
+    float: left;
+}
+.bottom-right{
+    width: 40%;
+    height: 60vh;
+    float: right;
+}
+.bottom-title{
+    font-size: 1.5em;
+    background-color: #fbe5e0;
+}
+.job-title{
+    font-size: 1.8em;
+    color: #120a03;
+}
+.company-title{
+    font-size: 1.5em;
+}
